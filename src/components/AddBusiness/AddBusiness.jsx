@@ -1,12 +1,16 @@
 import React from "react";
 import "./AddBusiness.scss";
+import AddBtn from "../../assets/Buttons/add-new-post.svg";
+import bakeryLogo from "../../assets/Images/Bakery/My-Love-at-First-Bite-Logo.png";
 
 const AddBusiness = () => {
 	return (
 		<div className="wrapper business">
 			<h1>Edit Information</h1>
 			<div className="business__profile">
-				logo
+				<img src={bakeryLogo} alt="add" />
+			</div>
+			<div className="business__profile business__profile--link">
 				<a href="">Change Profile Image</a>
 			</div>
 			<div className="flex-2-col">
@@ -260,6 +264,25 @@ const AddBusiness = () => {
 							/>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<h3>Add your posts</h3>
+			<div className="five-col">
+				<div>
+					<img src={AddBtn} alt="add" />
+				</div>
+				<div>
+					<img src={AddBtn} alt="add" />
+				</div>
+				<div>
+					<img src={AddBtn} alt="add" />
+				</div>
+				<div>
+					<img src={AddBtn} alt="add" />
+				</div>
+				<div>
+					<img src={AddBtn} alt="add" />
 				</div>
 			</div>
 		</div>

@@ -8,6 +8,14 @@
 	}
 	&__profile {
 		@include mixins.flex-row-center;
+		&--link {
+			margin-bottom: 3.3125rem;
+			margin-top: 2rem;
+			a {
+				text-decoration: none;
+				color: #2f8fdf;
+			}
+		}
 	}
 }
 
@@ -75,4 +83,8 @@
 
 .contact-hours {
 	margin-top: 2rem;
+}
+.five-col {
+	display: flex;
+	gap: 1.0625rem;
 }
