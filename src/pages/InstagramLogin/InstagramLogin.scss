@@ -2,42 +2,43 @@
 @use "../../styles/partials/variables" as *;
 
 .instagram-login {
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-items: center;
-  margin-top: 6.25rem;
-  margin-bottom: 15rem;
-  &__logo {
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 1rem;
-  }
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	align-items: center;
+	margin-top: 6.25rem;
+	margin-bottom: 15rem;
+	&__logo {
+		width: 60%;
+		margin-left: 20%;
+		margin-bottom: 1rem;
+	}
 
-  &__card {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  &__card-container {
-    padding: 5rem 5rem 10rem 5rem;
-  }
-  &__input {
-    width: 100%;
-    font-size: 12px;
-    border: 0px;
-    background-color: #efefef;
-    height: 2.375rem; //38px
-    border-radius: 5px;
-    padding: 0 1rem; //16px
-    margin: 0.2rem 0;
-  }
-  &__button {
-    margin-top: 2.25rem;
-  }
+	&__card {
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	&__card-container {
+		padding: 5rem 5rem 10rem 5rem;
+	}
+	&__input {
+		width: 100%;
+		font-size: 12px;
+		border: 0px;
+		background-color: #efefef;
+		height: 2.375rem; //38px
+		border-radius: 5px;
+		padding: 0 1rem; //16px
+		margin: 0.2rem 0;
+	}
+	&__button {
+		margin-top: 2.25rem;
+		width: 100%;
+	}
 }
 
 #pw-field {
-  background: url(../../assets/icons/eye-closed-icon.svg) no-repeat right;
-  background-color: #efefef;
-  padding: 0 1rem;
-  vertical-align: 0px;
+	background: url(../../assets/icons/eye-closed-icon.svg) no-repeat right;
+	background-color: #efefef;
+	padding: 0 1rem;
+	vertical-align: 0px;
 }

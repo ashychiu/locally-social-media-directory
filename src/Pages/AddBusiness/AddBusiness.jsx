@@ -276,7 +276,11 @@ const AddBusiness = () => {
 			<h3>Add your posts</h3>
 			<div className="five-col">
 				<div className="pointer">
-					<img src={AddBtn} alt="add" />
+					<label htmlFor="file-input" className="pointer">
+						<img src={AddBtn} alt="add" />
+					</label>
+
+					<input id="file-input" type="file" className="hidden" />
 				</div>
 				<div>
 					<img src={bakery1} alt="add" />
