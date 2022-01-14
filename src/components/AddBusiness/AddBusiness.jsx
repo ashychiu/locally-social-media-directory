@@ -79,139 +79,166 @@ const AddBusiness = () => {
 				<label htmlFor="location" className="form-field__label">
 					Contact Hours
 				</label>
-				<div className="three-col">
-					<div>
+
+				<div className="contact-hours">
+					<div className="three-col">
 						<div>Monday</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div className="three-col">
 						<div>Tuesday</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div className="three-col">
 						<div>Wednesday</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div className="three-col">
 						<div>Thursday</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div className="three-col">
 						<div>Friday</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div className="three-col">
 						<div>Saturday</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+						<div>
+							<input
+								type="time"
+								id="appt"
+								name="appt"
+								min="09:00"
+								max="18:00"
+								className="form-field__input"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div className="three-col">
 						<div>Sunday</div>
-					</div>
-					<div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-					</div>
-					<div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
-						<div>
-							<input
-								type="time"
-								id="appt"
-								name="appt"
-								min="09:00"
-								max="18:00"
-								className="form-field__input"
-							/>
-						</div>
 						<div>
 							<input
 								type="time"

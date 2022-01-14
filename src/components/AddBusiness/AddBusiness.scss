@@ -67,4 +67,12 @@
 .three-col {
 	display: flex;
 	gap: 32px;
+	margin: 0.5rem 0;
+	div:first-child {
+		width: 150px;
+	}
+}
+
+.contact-hours {
+	margin-top: 2rem;
 }
