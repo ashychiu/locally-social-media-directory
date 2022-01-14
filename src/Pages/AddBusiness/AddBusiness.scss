@@ -1,0 +1,106 @@
+@use "../../styles/partials/mixins";
+@use "../../styles/partials/variables" as *;
+
+.business {
+	h1 {
+		font-weight: 700;
+		font-size: 36px;
+	}
+	&__profile {
+		@include mixins.flex-row-center;
+		&--link {
+			margin-bottom: 3.3125rem;
+			margin-top: 2rem;
+			a {
+				text-decoration: none;
+				color: #2f8fdf;
+			}
+		}
+	}
+
+	&__btn {
+		margin-top: 5rem;
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+.flex-2-col {
+	display: flex;
+	gap: 4.625rem;
+}
+
+.form-field {
+	width: 100%;
+	margin: 1rem 0;
+
+	&__label {
+		font-weight: 700;
+		font-size: 24px;
+	}
+
+	&__input {
+		width: 100%;
+		height: 2.25rem;
+		margin-top: 0.25rem;
+		padding: 24px;
+		background: #efefef;
+		border-radius: 5px;
+		border: none;
+
+		&:focus {
+			border-color: $primary-cta;
+			outline: none;
+		}
+
+		@include mixins.tablet {
+			height: 2.375rem;
+		}
+	}
+
+	&__text-area {
+		width: 100%;
+		border-radius: 5px;
+		padding: 0.5rem 1rem;
+		border: none;
+		min-height: 12.125rem;
+		background: #efefef;
+		resize: none;
+		font-family: inherit;
+		&:focus {
+			border-color: $primary-cta;
+			outline: none;
+		}
+	}
+}
+
+.width-half {
+	width: 50%;
+}
+
+.three-col {
+	display: flex;
+	gap: 32px;
+	margin: 0.5rem 0;
+	div:first-child {
+		width: 150px;
+	}
+}
+
+.contact-hours {
+	margin-top: 2rem;
+}
+.five-col {
+	display: flex;
+	justify-content: space-between;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 24px;
+	margin: 4rem 0 1rem;
+}
+
+.hidden {
+	display: none;
+}

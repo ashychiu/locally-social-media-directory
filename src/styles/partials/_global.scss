@@ -1,0 +1,31 @@
+/** Global StyleSheet =============================
+ Reset, Typography
+ ============================================== **/
+
+@use "./variables" as *;
+@use "./mixins";
+@use "./typography";
+
+/* Reset */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 39px;
+}
+
+.wrapper {
+	padding: 4.9375rem 9.6875rem;
+}
+
+.pointer {
+	cursor: pointer;
+}
