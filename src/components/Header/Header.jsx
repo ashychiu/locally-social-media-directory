@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
 	return (
 		<>
-			<div class="imageBox">
-				<div class="imageInn">
+			<div className="imageBox">
+				<div className="imageInn">
 					<img src={HeaderImage} className="header__image" alt="header" />
 				</div>
-				<div class="hoverImg">
+				<div className="hoverImg">
 					<Link to="/auth">
 						<img
 							src={HeaderHoverImage}
