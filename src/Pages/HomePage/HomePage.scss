@@ -3,6 +3,7 @@
 
 .homepage {
   width: 100%;
+  @include flex-column-center;
   &__hero {
     width: 100%;
     @include flex-row;
