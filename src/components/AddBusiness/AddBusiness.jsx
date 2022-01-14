@@ -2,6 +2,10 @@ import React from "react";
 import "./AddBusiness.scss";
 import AddBtn from "../../assets/Buttons/add-new-post.svg";
 import bakeryLogo from "../../assets/Images/Bakery/My-Love-at-First-Bite-Logo.png";
+import bakery1 from "../../assets/Images/Bakery/Photo 1 Preview.png";
+import bakery2 from "../../assets/Images/Bakery/Photo 2 Preview.png";
+import bakery3 from "../../assets/Images/Bakery/Photo 3 Preview.png";
+import bakery4 from "../../assets/Images/Bakery/Photo 4 Preview.png";
 
 const AddBusiness = () => {
 	return (
@@ -273,16 +277,16 @@ const AddBusiness = () => {
 					<img src={AddBtn} alt="add" />
 				</div>
 				<div>
-					<img src={AddBtn} alt="add" />
+					<img src={bakery1} alt="add" />
 				</div>
 				<div>
-					<img src={AddBtn} alt="add" />
+					<img src={bakery2} alt="add" />
 				</div>
 				<div>
-					<img src={AddBtn} alt="add" />
+					<img src={bakery3} alt="add" />
 				</div>
 				<div>
-					<img src={AddBtn} alt="add" />
+					<img src={bakery4} alt="add" />
 				</div>
 			</div>
 		</div>
