@@ -1,3 +1,6 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
 .instagram-login {
   display: flex;
   flex-direction: column;
@@ -6,26 +9,31 @@
   margin-top: 6.25rem;
   &__logo {
     width: 10.4375rem;
+
+    margin-left: 15%;
+    margin-bottom: 1rem;
   }
+
   &__card {
-    background-color: yellow;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  &__card-container {
+    padding: 5rem 5rem 10rem 5rem;
   }
   &__input {
-    // border: 1px solid gray;
-    background-color: wheat;
-    height: 2.25rem; //36px
-    // border-radius: 20px;
-    // padding: 0 1rem; //16px
+    width: 100%;
+    border: 0px;
+    background-color: #efefef;
+    height: 2.375rem; //38px
+    border-radius: 5px;
+    padding: 0 1rem; //16px
+    margin: 0.2rem 0;
   }
-}
-
-.mb-3 {
-  width: 100%;
-  background-color: wheat;
-  padding: 0 1rem; //16px
 }
 
 #ig-submitbtn {
+  font-size: 1rem;
   width: 100%;
-  background-color: black;
+  background-color: $secondary-dark;
+  margin-top: 2.25rem;
 }
