@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 import "./App.scss";
 
@@ -15,8 +16,8 @@ function App() {
 				<Route path="/auth" component={Auth} />
 				<Route path="/instagram" component={Instagram} /> 
 				<Route path="/add" component={AddBusiness} />
-			</Switch>
-			<Footer /> */}
+			</Switch>*/}
+			<Footer />
 		</BrowserRouter>
 	);
 }
