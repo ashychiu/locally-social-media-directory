@@ -293,7 +293,7 @@ const AddBusiness = () => {
 			</div>
 
 			<div className="business__btn pointer">
-				<Link to="/Store">
+				<Link to="/store">
 					<img src={completeBtn} alt="add" />
 				</Link>
 			</div>
