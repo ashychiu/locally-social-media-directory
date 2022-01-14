@@ -1,0 +1,31 @@
+.instagram-login {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  margin-top: 6.25rem;
+  &__logo {
+    width: 10.4375rem;
+  }
+  &__card {
+    background-color: yellow;
+  }
+  &__input {
+    // border: 1px solid gray;
+    background-color: wheat;
+    height: 2.25rem; //36px
+    // border-radius: 20px;
+    // padding: 0 1rem; //16px
+  }
+}
+
+.mb-3 {
+  width: 100%;
+  background-color: wheat;
+  padding: 0 1rem; //16px
+}
+
+#ig-submitbtn {
+  width: 100%;
+  background-color: black;
+}
