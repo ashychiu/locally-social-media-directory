@@ -2,6 +2,8 @@ import { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import AddBusiness from "./components/AddBusiness/AddBusiness";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.scss";
 
@@ -10,13 +12,14 @@ function App() {
 		<BrowserRouter>
 			<Header />
 
-			{/* <Switch>
-				<Redirect from="/" to="/home" exact />
+			<Switch>
+				{/* <Redirect from="/" to="/home" exact />
 				<Route path="/home" component={Home} exact />
-				<Route path="/auth" component={Auth} />
-				<Route path="/instagram" component={Instagram} /> 
+			    <Route path="/auth" component={Auth} />
+				<Route path="/instagram" component={Instagram} />  */}
+
 				<Route path="/add" component={AddBusiness} />
-			</Switch>*/}
+			</Switch>
 			<Footer />
 		</BrowserRouter>
 	);
