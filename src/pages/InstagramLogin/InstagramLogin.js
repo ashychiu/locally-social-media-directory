@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import InstagramLogo from "../../assets/logo/instagram.svg";
+import InstagramLogo from "../../assets/icons/Instagram Logo.png";
+import LoginButton from "../../assets/Buttons/login-button.svg";
 import "./InstagramLogin.scss";
 import { Button, Container, Row, Col } from "react-bootstrap";
 
@@ -31,10 +32,12 @@ const InstagramLogin = () => {
                   id="pw-field"
                   className="instagram-login__input"
                 />
-                <Link path="/add">
-                  <Button variant="secondary" size="lg" id="ig-submitbtn">
-                    Log In
-                  </Button>
+                <Link to="/add">
+                  <img
+                    src={LoginButton}
+                    className="instagram-login__button"
+                    alt="login button"
+                  />
                 </Link>
               </form>
             </div>
