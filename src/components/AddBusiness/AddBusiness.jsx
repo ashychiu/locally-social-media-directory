@@ -6,6 +6,8 @@ import bakery1 from "../../assets/Images/Bakery/Photo 1 Preview.png";
 import bakery2 from "../../assets/Images/Bakery/Photo 2 Preview.png";
 import bakery3 from "../../assets/Images/Bakery/Photo 3 Preview.png";
 import bakery4 from "../../assets/Images/Bakery/Photo 4 Preview.png";
+import completeBtn from "../../assets/Buttons/complete-listing.svg";
+import { Link } from "react-router-dom";
 
 const AddBusiness = () => {
 	return (
@@ -273,7 +275,7 @@ const AddBusiness = () => {
 
 			<h3>Add your posts</h3>
 			<div className="five-col">
-				<div>
+				<div className="pointer">
 					<img src={AddBtn} alt="add" />
 				</div>
 				<div>
@@ -288,6 +290,12 @@ const AddBusiness = () => {
 				<div>
 					<img src={bakery4} alt="add" />
 				</div>
+			</div>
+
+			<div className="business__btn pointer">
+				<Link to="/Store">
+					<img src={completeBtn} alt="add" />
+				</Link>
 			</div>
 		</div>
 	);

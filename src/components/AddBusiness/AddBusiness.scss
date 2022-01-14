@@ -17,6 +17,12 @@
 			}
 		}
 	}
+
+	&__btn {
+		margin-top: 5rem;
+		display: flex;
+		justify-content: flex-end;
+	}
 }
 
 .flex-2-col {
@@ -86,5 +92,5 @@
 }
 .five-col {
 	display: flex;
-	gap: 1.0625rem;
+	justify-content: space-between;
 }
