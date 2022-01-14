@@ -3,6 +3,7 @@
 
 .homepage {
   width: 100%;
+  @include flex-column-center;
   &__hero {
     width: 100%;
     @include flex-row;
@@ -15,7 +16,6 @@
   }
   &__hero-bottom {
     margin-left: 38%;
-    // background-color: red;
   }
   &__search {
     width: 95%;
