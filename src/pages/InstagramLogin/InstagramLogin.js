@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import InstagramLogo from "../../assets/logo/instagram.svg";
 import "./InstagramLogin.scss";
-import { Form, Button, Container, Row, Col } from "react-bootstrap";
+import { Button, Container, Row, Col } from "react-bootstrap";
 
 const InstagramLogin = () => {
   return (
@@ -28,22 +28,9 @@ const InstagramLogin = () => {
                   type="password"
                   name="password"
                   placeholder="password"
+                  id="pw-field"
                   className="instagram-login__input"
                 />
-                {/* <Form.Group
-                  className="instagram-login__input"
-                  controlId="formGroupEmail"
-                >
-                  <Form.Control type="email" placeholder="username or email" />
-                </Form.Group>
-
-                <Form.Group
-                  className="instagram-login__input"
-                  controlId="formGroupPassword"
-                >
-                  <Form.Control type="password" placeholder="password" />
-                </Form.Group> */}
-
                 <Link path="/add">
                   <Button variant="secondary" size="lg" id="ig-submitbtn">
                     Log In
