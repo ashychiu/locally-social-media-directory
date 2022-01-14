@@ -1,12 +1,13 @@
 import React from "react";
 import "./StoreFront.scss";
 import Logo from "../../assets/icons/logoblack.svg";
+import Back from "../../assets/icons/backarrow.png";
 
 function StoreFront() {
   return (
     <>
       <div className="storefront">
-        <h1> StoreFront</h1>
+        <button className="storefront__back"></button>
         <div className="storefront__card">
           <img src={Logo} alt="Logo" />
           <div className="storefront__card__heading">

@@ -1,5 +1,18 @@
 .storefront {
   display: flex;
+
+  &__back {
+    display: flex;
+    background-image: url("../../assets/icons/backarrow.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    width: 10rem;
+    padding: 5rem;
+    height: 0.4rem;
+    background-color: white;
+    border: none;
+    margin: 2rem;
+  }
   &__card {
     display: flex;
     flex-direction: column;
