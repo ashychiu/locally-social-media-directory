@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import AddBusiness from "./Pages/AddBusiness/AddBusiness";
 import StoreFront from "./Pages/StoreFront/StoreFront";
+import Store from "./Pages/Store/Store";
 
 import "./App.scss";
 
@@ -19,6 +20,7 @@ function App() {
 				<Route path="/auth" component={StoreFront} />
 				<Route path="/instagram" component={InstagramLogin} />
 				<Route path="/add" component={AddBusiness} />
+				<Route path="/store" component={Store} />
 			</Switch>
 			<Footer />
 		</BrowserRouter>
