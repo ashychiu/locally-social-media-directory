@@ -29,7 +29,11 @@ const HomePage = () => {
               />
             </Link>
           </div>
-          <img src={HeroBottom} className="homepage__hero-bottom" alt="hero" />
+          <img
+            src={HeroBottom}
+            className="homepage__hero-bottom"
+            alt="heroimge"
+          />
         </div>
 
         <div className="homepage__hero-right">
