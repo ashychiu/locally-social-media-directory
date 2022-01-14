@@ -10,19 +10,19 @@ import StoreFront from "./Pages/StoreFront/StoreFront";
 import "./App.scss";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Header />
-      <Switch>
-        {/* <Redirect from="/" to="/home" exact /> */}
-        {/* <Route path="/home" component={Home} exact /> */}
-        <Route path="/auth" component={StoreFront} />
-        <Route path="/instagram" component={InstagramLogin} />
-        <Route path="/add" component={AddBusiness} />
-      </Switch>
-      <Footer />
-    </BrowserRouter>
-  );
+	return (
+		<BrowserRouter>
+			<Header />
+			<Switch>
+				{/* <Redirect from="/" to="/home" exact /> */}
+				{/* <Route path="/home" component={Home} exact /> */}
+				<Route path="/auth" component={StoreFront} />
+				<Route path="/instagram" component={InstagramLogin} />
+				<Route path="/add" component={AddBusiness} />
+			</Switch>
+			<Footer />
+		</BrowserRouter>
+	);
 }
 
 export default App;
