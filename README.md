@@ -7,7 +7,7 @@ The following tech stack have been used: React, Bootstrap, SASS, React Router.
 
 Background
 
-Locally is a directory specifically for social media based business. More and More people have started a side hustle during the pandemic, for examples - home baked goods, mobile salon, dog walking, cleaning service etc. Most of them are social media based - they have an Instragram or Facebook page but don't have the capacity to advertise themselves and potential clients have may don't know where to find a home-based hair dresser other than the century old "word of mouth". 
+Locally is a directory specifically for social media based business. More and More people have started a side hustle during the pandemic, for examples - home baked goods, mobile salon, dog walking, cleaning service etc. Most of them are social media based - they have an Instragram or Facebook page but don't have the capacity to advertise themselves and potential clients may not know where to find a mobile hair dresser or dog groomer other than the century old "word of mouth". 
 
 Usage
 
