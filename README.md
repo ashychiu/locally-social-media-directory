@@ -16,7 +16,7 @@ To download this project and view it locally, run the following commands in your
 git clone git@github.com:ashychiu/industry-project.git
 
 ## Screenshots
-![Uploading Screen Shot 2022-05-28 at 12.07.42 PM.png…]()
+<img width="1427" alt="Screen Shot 2022-05-28 at 12 07 42 PM" src="https://user-images.githubusercontent.com/32230130/170809289-22d13fa8-3715-4a0b-aeaf-16a6759bdf84.png">
 ![landing-footer-cropped](https://user-images.githubusercontent.com/32230130/157357633-b6dac801-bc7e-4e4a-83e0-5decc3715101.png)
 ![Storefront](https://user-images.githubusercontent.com/32230130/157357648-4d9ebd90-a7d8-448d-bff5-a93321801789.png)
 ![SearchResults](https://user-images.githubusercontent.com/32230130/157357651-fd18f33d-0773-4757-8e00-0c992f7680f5.png)
