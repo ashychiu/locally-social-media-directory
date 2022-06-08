@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import InstagramLogo from "../../assets/icons/Instagram Logo.png";
+import InstagramLogo from "../../assets/icons/Instagram-Logo.png";
 import LoginButton from "../../assets/Buttons/login-button.svg";
 import "./InstagramLogin.scss";
 import { Button, Container, Row, Col } from "react-bootstrap";
