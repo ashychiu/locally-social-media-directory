@@ -1,2 +1,15 @@
 @use "./styles/partials/global" as *;
 @use "./styles/partials/mixins";
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+}
