@@ -15,13 +15,20 @@
     @include flex-column-center;
     width: 40%;
     // flex-grow: 2;
-    margin-left: 4rem;
+    // margin-left: 0rem;
   }
   &__hero-right {
     width: 40%;
   }
+  &__hero-top {
+    width: 100%;
+  }
+  &__hero-plant {
+    width: 110%;
+  }
   &__hero-bottom {
     margin-left: 38%;
+    width: 60%;
   }
   &__search {
     width: 80%;
@@ -44,6 +51,7 @@
     }
   }
   &__search-button {
+    width: 100%;
     padding-top: 0px;
   }
   &__image {
