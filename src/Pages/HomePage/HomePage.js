@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HomeImage from "../../assets/Pages/landing-footer-cropped.png";
-import HeroTop from "../../assets/Hero Section/Hero-1.svg";
-import HeroBottom from "../../assets/Hero Section/Hero-2.svg";
+import HeroTop from "../../assets/Hero/Hero-1.svg";
+import HeroBottom from "../../assets/Hero/Hero-2.svg";
 import SearchButton from "../../assets/Buttons/search button.svg";
-import HeroPlants from "../../assets/Hero Section/plants-block.png";
+import HeroPlants from "../../assets/Hero/plants-block.png";
 import "./HomePage.scss";
 
 const HomePage = () => {
